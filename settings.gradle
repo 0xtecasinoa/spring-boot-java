@@ -9,10 +9,10 @@ pluginManagement {
 
 rootProject.name = 'spring-boot-java-template'
 
+include 'clients:client-example'
 include 'core:core-enum'
-include 'core:core-api'
 include 'storage:db-core'
 include 'tests:api-docs'
 include 'support:logging'
 include 'support:monitoring'
-include 'clients:client-example'
+include 'core:core-api'
